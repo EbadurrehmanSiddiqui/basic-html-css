@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title> 
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" /> 
+<style type="text/css">
+	body{
+		background-color: #5B9ED9;
+		font-family:'Open Sans',sans-sarif;
+	}
+	#container1 {
+		width: 300px;
+		margin: 0 auto;
+		margin-top:300px;
+		text-align: center;
+	}
+	#header .logo .fa-weibo{
+		font-size: 65px;
+		color:white;
+		margin-bottom: 0px;
+	}
+	#header h1 {
+		color:white;
+		font-size: 30px
+		margin-bottom:10px;
+
+	}
+	#loginform .container1fields{
+		background-color: white
+		padding-bottom:10px;
+		
+	}
+	#loginform .container1fields input[type="email"],
+		input[type="password"]{
+			width: 100%;
+			border:none;
+			padding: 10px;
+			margin:0px;
+			outline: none;
+			text-indent:10px;
+			font-family:'Open Sans',sans-sarif;
+			font-size: 15px;
+			border-radius: 6px
+		}
+		
+		#loginform .container1fields input[type="password"]{
+			margin-bottom: 3px;
+			border-top-left-radius:0px;
+			border-top-right-radius:0px;
+			
+		 }
+		 #loginform .container1fields input[type="email"]{
+			border-bottom-left-radius:0px;
+			border-bottom-right-radius:0px;
+			border-bottom:thin;
+
+
+		 }
+		 #loginform input[type="submit"]{
+		 	display: block;
+		 	width: 106.5%;
+		 	border:none;
+		 	background-color:#2186D4;
+		 	font-size: 12px;
+		 	font-weight: bold;
+		 	color: white;
+		 	margin-top: 10px;
+		    padding: 14px 0px;
+		    border-radius: 6px;
+		 }
+		 #loginform input[type="submit"]:hover{
+		 	background-color: #0B6AB4;
+		 	cursor: pointer;
+		 }
+		 #footer a{
+		 	color: white;
+		 }
+		 #footer p{
+		 	font-size: 19px;
+		 }
+</style>
+
+
+</head>
+<body>
+	<div id="container1">
+		<div id="header">
+			<div class="logo"><i class="fa fa-weibo" aria-hidden="true"></i></div>
+			<h1>Welcome</h1>
+		</div>
+		<div id="loginform">
+			<div class="container1fields">
+				<input type="email" placeholder="email">
+				<input type="password" placeholder="password" />
+			</div>
+			<input type="submit" value="login"/>
+		</div>
+	   <div id="footer">
+	 	<p><b><a href="#"> Sign up</a> </b> for a new account </p>
+	 </div>
+	</div>
+
+</body>
+</html>
